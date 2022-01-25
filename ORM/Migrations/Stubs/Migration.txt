@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ORM.Migrations;
+
+namespace {{namespace}}
+{
+    public class {{class}} : Migration
+    {
+		public void Up()
+		{
+			Schema.{{method}}("{{name}}", (TableBlueprint table) =>
+            {
+                //
+            });
+		}
+
+		public void Down()
+		{
+			Schema.DropIfExists("{{name}}");
+		}
+	}
+}

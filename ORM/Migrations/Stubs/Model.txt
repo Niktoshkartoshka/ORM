@@ -1,0 +1,11 @@
+using System;
+using System.Collections.Generic;
+using ORM;
+
+namespace {{namespace}}
+{
+    public class {{name}} : Model
+    {
+        {{field}}
+    }
+}
